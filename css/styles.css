@@ -418,7 +418,7 @@ header ul li:last-child {
     padding-right: inherit !important;
   }
   .app .detail h1 {
-    width: 650px !important;
+    width: 350px !important;
     margin-top: -60px !important;
     font-size: 30px !important;
     line-height: 1;
@@ -427,6 +427,7 @@ header ul li:last-child {
   .app .detail p {
     font-size: 14px !important;
     line-height: 1.5;
+    width: 450px !important;
   }
   .app .bg_image {
     display: flex;
@@ -529,17 +530,19 @@ header ul li:last-child {
   .features {
     margin-bottom: 70px !important;
   }
-  .features .detail h2 {
+  #features .detail h2 {
     margin-top: -30px !important;
     font-size: 30px !important;
     line-height: 1.2;
     margin-bottom: 30px !important;
+    width: 350px !important;
   }
   .features .detail {
     margin-bottom: 80px !important;
   }
-  .features .detail p {
+  #features .detail p {
     font-size: 14px !important;
+    width: 400px !important;
   }
   .features .feature:nth-child(3) {
     display: none !important;
@@ -588,19 +591,19 @@ header ul li:last-child {
 .tax {
   padding-bottom: 112px !important;
 }
-.heading {
+.tax .heading {
   margin-top: -400px !important;
 }
 .tax .heading p {
   max-width: 600px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .heading h4 {
+  .tax .heading h4 {
     font-size: 25px !important;
     width: 300px !important;
     margin: 0 auto !important;
   }
-  .heading p {
+  .tax .heading p {
     font-size: 12px !important;
     width: 300px !important;
     margin: 0 auto !important;
@@ -610,15 +613,17 @@ header ul li:last-child {
   .tax {
     margin-top: 150px !important;
   }
-  .heading h4 {
+  .tax .heading h4 {
     font-size: 30px !important;
     margin: 0 auto !important;
     margin-bottom: 30px !important;
+    width: 450px !important;
   }
-  .heading p {
+  .tax .heading p {
     font-size: 14px !important;
     margin: 0 auto !important;
     margin-bottom: 30px !important;
+    width: 450px !important;
   }
 }
 /***************************/
