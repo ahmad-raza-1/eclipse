@@ -386,6 +386,7 @@ header ul li:last-child {
     margin-top: -60px !important;
     font-size: 25px !important;
     line-height: 1.5;
+    padding-top: 60px !important;
   }
   .app .detail p {
     width: 300px !important;
@@ -393,6 +394,7 @@ header ul li:last-child {
     line-height: 1.5;
   }
   .app .bg_image {
+    margin-top: -40px !important;
     display: flex !important;
     justify-content: center !important;
   }
@@ -430,6 +432,7 @@ header ul li:last-child {
     width: 450px !important;
   }
   .app .bg_image {
+    margin-top: -30px !important;
     display: flex;
     justify-content: center;
   }
@@ -490,7 +493,8 @@ header ul li:last-child {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .features {
-    margin-bottom: 300px !important;
+    padding: 0 !important;
+    margin-bottom: 330px !important;
   }
   .features .detail h2 {
     margin-top: -30px !important;
@@ -528,6 +532,7 @@ header ul li:last-child {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .features {
+    padding: 0 !important;
     margin-bottom: 70px !important;
   }
   #features .detail h2 {
@@ -598,6 +603,9 @@ header ul li:last-child {
   max-width: 600px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .tax {
+    padding: 0 !important;
+  }
   .tax .heading h4 {
     font-size: 25px !important;
     width: 300px !important;
@@ -611,6 +619,7 @@ header ul li:last-child {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .tax {
+    padding: 0 !important;
     margin-top: 150px !important;
   }
   .tax .heading h4 {
@@ -731,6 +740,14 @@ hr {
   .pricing {
     display: flex !important;
   }
+  #pricing {
+    padding-top: 30px !important;
+    padding-bottom: 0 !important;
+  }
+  #pricing .detail h5 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
   .pricing .detail h5 {
     font-size: 25px !important;
     width: 300px !important;
@@ -756,8 +773,15 @@ hr {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .pricing {
+    padding: 0 !important;
     display: flex !important;
     justify-content: center !important;
+  }
+  #pricing {
+    padding-bottom: 0 !important;
+  }
+  #pricing .detail h5 {
+    margin-bottom: -50px !important;
   }
   .pricing .detail {
     margin-bottom: 90px !important;
@@ -821,6 +845,13 @@ hr {
     font-size: 25px !important;
     margin: 0 auto !important;
   }
+  #queries .detail {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #queries .query {
+    margin-top: 20px;
+  }
   .queries .detail p {
     font-size: 12px !important;
     margin: 0 auto !important;
@@ -858,6 +889,9 @@ hr {
     font-size: 20px;
     margin-left: 5px !important;
   }
+  hr {
+    margin-top: 50px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .queries .detail h2 {
@@ -894,6 +928,9 @@ hr {
     color: #9ca3af;
     font-size: 20px;
     margin-left: 15px !important;
+  }
+  hr {
+    margin-top: 50px !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
